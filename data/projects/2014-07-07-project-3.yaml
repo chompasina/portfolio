@@ -1,0 +1,7 @@
+modalID: 3
+title: Lending Hands Microlending Services Platform
+date: 2014-07-07
+img: 3.jpg
+clientLink: "#"
+category: Web Development
+description: This brownfield project pivoted a simple e-commerce store into a multitenancy microlending platform. The app was developed with MVC architecture using Rails, database transactions and logic operations using ActiveRecord, user authentication and authorization, a functional shopping cart with Stripe integration, different levels of authorization (registered user, organization admin, platform admin), and Javascript/jQuery methods for search/filter and cart updating features.

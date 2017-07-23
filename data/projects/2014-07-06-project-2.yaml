@@ -1,0 +1,8 @@
+modalID: 2
+title: Healthy Eating Game
+date: 2014-07-06
+img: 2.jpg
+client: Civic Tech Organization (Pahlka Posse)
+clientLink: "#"
+category: Web Development
+description: I built this game with two partners in 10 days after just learning JavaScript. We used vanilla JavaScript, jQuery and HTML5 Canvas, and tested with Mocha and Chai. We developed this game to serve as one of the action games within the civic tech organization's larger healthy eating narrative game.

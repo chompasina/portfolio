@@ -1,0 +1,99 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Tommasina's Portfolio"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Tommasina Miller"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Leveraging technology for a more equitable world"
+		subtitle   = "I'm passionate about writing code that improves human relationships through efficiency and empathy."
+		buttonText = "Learn more about my work..."
+
+
+	# About section
+	[params.about]
+		headline    = "I'm a software developer based in Denver, Colorado."
+		description = "My favorite code challenges include complex SQL queries, collaborating with teams of people with diverse skill sets, and building out features backend to frontend."
+
+
+	# Service section
+	[params.services]
+		headline = "At your service"
+
+        [[params.services.list]]
+            icon = "fa-database"
+            title = "Technical Flexibility"
+            description = "I'm a backend developer who enjoys the frontend. Whether Rails, React, or both, I'm happy to build it."
+
+        [[params.services.list]]
+			icon = "fa-university"
+			title = "Commitment to Civic Tech"
+			description = "Through my volunteer work and my professional dev career, I love making a difference for our civic leaders."
+
+		[[params.services.list]]
+            icon = "fa-globe"
+            title = "Proven Success on Distributed Teams"
+            description = "Years of remote experience have me well-practiced with remote communication and work-flows."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Empathetic Communicator"
+            description = "I work towards team alignment and conversation over competition and conflict."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		[params.aside.button]
+			text = "View my résumé"
+			link = "./img/Tommasina_Miller_Resume_2017.pdf"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with me? That's great! Give me a call or send me an email and I'll get back to you as soon as possible!"
+		phone = "941-882-2132"
+		email = "tommasina1@gmail.com"
+

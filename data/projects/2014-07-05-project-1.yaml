@@ -1,0 +1,8 @@
+modalID: 1
+title: Denver Recycling Request Tool
+date: 2014-07-05
+img: 1.jpg
+client: Code for Denver & EcoCycle
+clientLink: "#"
+category: Web Development
+description:  I worked with a team of volunteer developers at Code for Denver to create this open source request platform for tenants of multi-family buildings within the City of Denver to transparently and collectively petition their landlord to add recycling collection services. This app uses a Rails API with a PostgresQL database, React frontend with Redux state management, Google Places API, and is styled with Sass. Once the app is complete, we'll create a customizable version that citizens in any city in the world can use to request services from their landlord.

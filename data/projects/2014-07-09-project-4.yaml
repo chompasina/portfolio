@@ -1,0 +1,7 @@
+modalID: 4
+title: Mythical Creatures Adoption Site
+date: 2014-07-09
+img: 4.jpg
+clientLink: "#"
+category: Web Development
+description: The site serves as a storefront to adopt mythical creatures in the wild. The app follows MVC architecture using Rails, database transactions and logic operations using ActiveRecord, user authorization, user authentication, and a shopping cart for single browsing sessions. Payment is completed via Stripe.

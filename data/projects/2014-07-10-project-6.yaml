@@ -1,0 +1,7 @@
+modalID: 6
+title: Anonymous Job SlackBot
+date: 2014-07-10
+img: 6.jpg
+clientLink: "#"
+category: Web Development
+description: I built this Slackbot to help people anonymously share their current job status for the purposes of data collection. The app uses the Slack API with configured slash commands to authenticate users against a PostgresQL database of confirmed authorized users, and stores their data privately in a Rails backend, without the user leaving Slack.
