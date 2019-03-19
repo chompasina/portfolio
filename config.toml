@@ -20,8 +20,8 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Tommasina Miller"
+	description = "Software Developer"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -88,7 +88,7 @@ googleAnalytics = ""
 	[params.aside]
 		[params.aside.button]
 			text = "View my résumé"
-			link = "./img/Tommasina_Miller_Resume_2017.pdf"
+			link = "./portfolio/Tommasina_Miller_Resume_2019.pdf"
 
 	# Contact section
 	[params.contact]
